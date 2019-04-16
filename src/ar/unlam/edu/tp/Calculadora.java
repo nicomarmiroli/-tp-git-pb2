@@ -9,7 +9,7 @@ public class Calculadora {
 		Integer opcion;
 		Integer resultado;
  do{
- System.out.println("Ingrese su operación /n 1 para multiplicar /n 2 para dividir /n 3 para sumar /n 4 para restar  /n 5 para potenciar");
+ System.out.println("Ingrese su operaciÃ³n /n 1 para multiplicar /n 2 para dividir /n 3 para sumar /n 4 para restar  /n 5 para potenciar");
  opcion = teclado.next();
  } 
  while(opcion < 1 && opcion > 5)
@@ -33,6 +33,7 @@ public class Calculadora {
 	 break;
  case 5:
 	 resultado = (int) Math.pow(a,b);
+         break;
  } 
  
  System.out.println("El resultado es " + resultado.toString());
