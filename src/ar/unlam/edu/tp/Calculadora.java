@@ -28,12 +28,13 @@ public class Calculadora {
 					resultado = a / b;
 					break;
 				case 3:
-				 	resultado = a - b;
+				 	resultado = a + b;
 					break;
 				case 4:
-					resultado = a + b;
+					resultado = a - b;
 					break;
 			 } 
+			 System.out.println("rodri");
 			 
 			 System.out.println("El resultado es " + resultado.toString());
  }
